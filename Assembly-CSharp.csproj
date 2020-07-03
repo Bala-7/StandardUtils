@@ -63,11 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\FPS_Camera.cs" />
-    <Compile Include="Assets\Scripts\FPS_Player.cs" />
-    <Compile Include="Assets\Scripts\MyTPCharacter.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\Bullet.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\Button.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\Enemy.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_Camera.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_FireWeapon.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_InteractController.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_MeleeWeapon.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_Player.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_ShootController.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_UI.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\FPS_Weapon.cs" />
+    <Compile Include="Assets\FirstPersonController\Scripts\Usable.cs" />
+    <Compile Include="Assets\ThirdPersonController\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\ThirdPersonController\Scripts\MyTPCharacter.cs" />
+    <Compile Include="Assets\ThirdPersonController\Scripts\TP_Player.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/fdomi/UnityProjects/StandardUtils/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
